@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Schedule Meeting"
+        android:textSize="20sp"
+        android:textColor="#C4C4C4"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="53sp" />
+
+        <TextView
+            android:layout_width="38sp"
+            android:layout_height="16sp"
+            android:text="Name"
+            android:textColor="#C4C4C4"
+            android:layout_marginTop="100sp"
+            android:layout_marginStart="16sp"/>
+        <TextView
+            android:id="@+id/nrupul"
+            android:layout_width="71sp"
+            android:layout_height="24sp"
+            android:text="Nurpul Dev"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="127sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="324sp"
+            android:layout_height="1sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="146sp"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/rectangle"
+            android:layout_marginTop="182sp"
+            android:layout_marginStart="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/rectangle2"
+            android:layout_marginStart="234sp"
+            android:layout_marginTop="184sp"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="152sp"
+            android:layout_height="16sp"
+            android:text="Tue-22 December 2020"
+            android:layout_marginTop="191sp"
+            android:layout_marginStart="35sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="152sp"
+            android:layout_height="16sp"
+            android:text="11:30 am"
+            android:layout_marginTop="191sp"
+            android:layout_marginStart="251sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="98sp"
+            android:layout_height="16sp"
+            android:text="People to invite"
+            android:textColor="#C4C4C4"
+            android:layout_marginTop="245sp"
+            android:layout_marginStart="19sp"
+            />
+        <TextView
+            android:layout_width="324sp"
+            android:layout_height="1sp"
+            android:layout_marginStart="16sp"
+            android:layout_marginTop="285sp"
+            android:background="#C4C4C4"/>
+        <TextView
+            android:id="@+id/prateek"
+            android:layout_width="71sp"
+            android:layout_height="24sp"
+            android:text="Prateek"
+            android:layout_marginStart="21sp"
+            android:layout_marginTop="266sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="13sp"
+            android:layout_height="13sp"
+            android:drawableEnd="@drawable/ic_ei_search"
+            android:layout_marginStart="311sp"
+            android:layout_marginTop="258sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/prateek"
+            android:layout_marginStart="27sp"
+            android:layout_marginTop="307sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/jeff"
+            android:layout_marginStart="77sp"
+            android:layout_marginTop="307sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/retangle3"
+            android:layout_marginTop="383sp"
+            />
+        <TextView
+            android:layout_width="324sp"
+            android:layout_height="1sp"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="445sp"
+            android:background="#C4C4C4"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/prateek"
+            android:layout_marginStart="43sp"
+            android:layout_marginTop="400sp"/>
+        <ImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/jeff"
+            android:layout_marginStart="43sp"
+            android:layout_marginTop="463sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prateek Shkula"
+            android:layout_marginStart="100sp"
+            android:textStyle="bold"
+            android:layout_marginTop="408sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:drawableEnd="@drawable/ic_vector__8_"
+            android:layout_marginStart="175sp"
+            android:layout_marginTop="398sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jeff Bezos"
+            android:textStyle="bold"
+            android:layout_marginStart="100sp"
+            android:layout_marginTop="469sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" @Pratshkula"
+            android:textColor="#C4C4C4"
+            android:layout_marginStart="290sp"
+            android:layout_marginTop="405sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" @jefbezoz"
+            android:textColor="#C4C4C4"
+            android:layout_marginStart="290sp"
+            android:layout_marginTop="465sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Notify people on slack?"
+            android:layout_marginStart="93sp"
+            android:layout_marginTop="534sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_group__1_"
+            android:layout_marginTop="534sp"
+            android:layout_marginStart="245sp"/>
+        <Button
+            android:layout_width="250sp"
+            android:layout_height="40sp"
+            android:textAllCaps="false"
+            android:text="Create Meeting"
+            android:layout_marginTop="572sp"
+            android:layout_marginStart="56sp"/>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
